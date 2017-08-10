@@ -1,0 +1,56 @@
+/*font-family*/
+$font-light: 'HeliosCondLightC', sans-serif;
+$font-black: 'HeliosCondBlackC', sans-serif;
+$font-arialN: 'ArialNarrow',sans-serif;
+$font-helveticaB: 'Helvetica-Bold',sans-serif;
+
+/*font-family*/
+
+/* Код для подключения шрифта в /css/stylename.css */
+
+@font-face {
+  font-family: 'HeliosCondLightC';
+  src: url('../fonts/HeliosCondLightC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HeliosCondLightC.otf')  format('opentype'),
+  url('../fonts/HeliosCondLightC.woff') format('woff'),
+  url('../fonts/HeliosCondLightC.ttf')  format('truetype'),
+  url('../fonts/HeliosCondLightC.svg#HeliosCondBlackC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HeliosCondBlackC';
+  src: url('../fonts/HeliosCondBlackC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HeliosCondBlackC.otf')  format('opentype'),
+  url('../fonts/HeliosCondBlackC.woff') format('woff'),
+  url('../fonts/HeliosCondBlackC.ttf')  format('truetype'),
+  url('../fonts/HeliosCondBlackC.svg#HeliosCondBlackC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ArialNarrow';
+  src: url('../fonts/ArialNarrow.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ArialNarrow.woff') format('woff'),
+  url('../fonts/ArialNarrow.ttf')  format('truetype'),
+  url('../fonts/ArialNarrow.svg#ArialNarrow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../fonts/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Helvetica-Bold.otf')  format('opentype'),
+  url('../fonts/Helvetica-Bold.woff') format('woff'),
+  url('../fonts/Helvetica-Bold.ttf')  format('truetype'),
+  url('../fonts/Helvetica-Bold.svg#Helvetica-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$color-white: #fff;

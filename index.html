@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/lib.min.css">
+    <link href="http://allfont.ru/allfont.css?fonts=helios-black" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <a class="logo" href="javascript:void(0);">
+            <img class="img-responsive" src="assets/images/logo.png" alt="image">
+        </a>
+    </header>
+    <main>
+        <div class="search-holder">
+            <h2>1. Поиск</h2>
+            <p>
+                Сверстать блок поиска. Кнопка и поле занимают все свободное пространство блока.
+                Ширина кнопки зависит от текста, который в ней находится, поле поиска занимает все оставшееся свободное
+                пространство блока.
+            </p>
+            <form role="form" Metod="Post">
+                <div class="form-group">
+                    <button class="btn" type="submit">Найти</button>
+                    <div class="input-h">
+                        <i class="icon-search"></i>
+                        <input type="text" class="form-control"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="submit">Go</button>
+                    <div class="input-h">
+                        <i class="icon-search"></i>
+                        <input type="text" class="form-control"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="blocks-holder">
+            <h2> 2. Блоки</h2>
+            <p>
+                Блоки идут в ряд по три, при уменьшении размера экрана, уменьшается количество блоков до двух,
+                потом до одного в ряд. Высота блока фиксированная.Иконка в верхнем правом углу обозначает статус и
+                может
+                меняться по классу.
+            </p>
+            <div class="row list-holder">
+                <div class="item">
+                    <img class="img-responsive" src="assets/images/img-01.jpg" alt="image">
+                    <div class="inform-h">
+                        <i class="label label-red"></i>
+                        <h3>UNKNOWN</h3>
+                        <span>HOW TO USE IGORA SYSTEM PRODUCTS</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="assets/images/img-01.jpg" alt="image">
+                    <div class="inform-h">
+                        <i class="label label-yellow"></i>
+                        <h3>UNKNOWN</h3>
+                        <span>HOW TO USE IGORA SYSTEM PRODUCTS</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="assets/images/img-01.jpg" alt="image">
+                    <div class="inform-h">
+                        <i class="label label-green"></i>
+                        <h3>UNKNOWN</h3>
+                        <span>HOW TO USE IGORA SYSTEM PRODUCTS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-holder">
+            <h2>3. Таблица</h2>
+            <p>
+                Сверстать информационный блок в виде таблицы. Высота строк фиксирована.
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <span class="ttl">SOME TITLE</span>
+                        <ul>
+                            <li><span class="data-ttl">COMPLETED:</span><span
+                                    class="data-description">June 7, 2015</span></li>
+                            <li><span class="data-ttl">SCORE:</span><span class="data-description">8/23</span></li>
+                            <li><span class="data-ttl">TIME:</span><span class="data-description">2 m</span></li>
+                            <li><span class="data-ttl">GRADE:</span><span class="data-description">Very good</span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="ttl">SOME TITLE</span>
+                        <ul>
+                            <li><span>COMPLETED:</span> <span>June 7, 2015</span></li>
+                            <li><span>SCORE:</span><span>8/23</span></li>
+                            <li><span>TIME:</span><span>2 m</span></li>
+                            <li><span>GRADE:</span> <span>Very good</span></li>
+                        </ul>
+                        <i class="label label-yellow"></i>
+                        <i class="label-hat"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="ttl">SOME TITLE</span>
+                        <ul>
+                            <li><span>COMPLETED:</span> <span>June 7, 2015</span></li>
+                            <li><span>SCORE:</span> <span>8/23</span></li>
+                            <li><span>TIME:</span> <span>2 m</span></li>
+                            <li><span>GRADE:</span> <span>Very good</span></li>
+                        </ul>
+                        <i class="label label-yellow"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="ttl">SOME TITLE</span>
+                        <ul>
+                            <li><span>COMPLETED:</span> <span>June 7, 2015</span></li>
+                            <li><span>SCORE:</span> <span>8/23</span></li>
+                            <li><span>TIME:</span> <span>2 m</span></li>
+                            <li><span>GRADE:</span> <span>Very good</span></li>
+                        </ul>
+                        <i class="label label-green"></i>
+                        <i class="label-hat"></i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <span class="atention">* Готовую вёрстку нужно залить на GitHub</span>
+
+
+    </main>
+</div>
+</body>
+</html>

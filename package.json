@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-npm-install": "^0.3.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.1"
+  }
+}
